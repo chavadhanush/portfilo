@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chava Dhanush | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Chava Dhanush</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! there Myself Chava Dhanush. I am a Java Backend Developer.</p>
+        <img src="dhanush.jpg" alt="Your Photo" />
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Java Backend Development</li>
+          <li>Microservices</li>
+          <li>HTML & CSS</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project">
+            <h3>TODO-APP-SPRING-BOOT</h3>
+            <p>
+              The To-Do Application is a simple yet powerful tool developed
+              using Spring Boot, designed to help users manage their tasks
+              efficiently. This project demonstrates the fundamental concepts of
+              a Spring Boot application, including RESTful APIs, data
+              persistence, and dependency injection. It leverages Spring Data
+              JPA for seamless database interactions and uses an H2 in-memory
+              database for ease of development and testing. The application
+              follows a layered architecture, dividing responsibilities among
+              the controller, service, and repository layers, ensuring clean and
+              maintainable code. Users can perform CRUD (Create, Read, Update,
+              Delete) operations.
+            </p>
+            <a
+              href="https://github.com/chavadhanush/Todo-SpringBoot"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <div class="project">
+            <h3>BEAT-BOX-MUSIC-APP</h3>
+            <p>
+              The BeatBox Music Application is an innovative project developed
+              to offer users a dynamic platform for music creation and
+              exploration. Built with Spring Boot, this application showcases
+              advanced features such as user authentication, music track
+              management, and real-time playback functionalities. It
+              incorporates a modern frontend using technologies like React or
+              Angular, providing a seamless and interactive user experience. The
+              backend leverages Spring Data JPA for efficient data handling and
+              a robust relational database for storing user data and music
+              tracks.
+            </p>
+            <a
+              href="https://github.com/chavadhanush/beatbox_music_app-master"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <!-- Add more projects as needed -->
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Provide your contact information (email, social media links, etc.)
+        </p>
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Chava Dhanush</p>
+    </footer>
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle("dark-theme");
+      }
+    </script>
+  </body>
+</html>
